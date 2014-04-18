@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8" />
+		<meta name="description" content="Mauricio Rivera Senior - Online Resume" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>Mauricio Rivera Senior - Mobile version</title>
+		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/mrs.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="fonts/awesome.css">
+		<link rel="stylesheet" href="fonts/googlefonts.css">
+	</head>
+	<body onresize="autoresize()">
+
+		<section id="home" class="home">
+			<h3>
+				<span class="home-color">M</span>auricio <span class="home-color">R</span>ivera <span class="home-color">S</span>enior<br>
+				<span class="position">Web <span class="yellow">&</span> Database Developer</span>
+			</h3>
+			<div class="home-background">
+				<figure class="bulb-light">
+					<img src="images/bulb_light.png" />
+				</figure>
+			</div>
+		</section>
+
+		<section id="about-me" class="about-me">
+			<h2>Mauricio Rivera Senior</h2>
+			<h3>Web <span class="special-char">&</span> Data Base Deleloper</h3>
+			<p>Thank you for your visit. I’m a Computer Scientist looking for a job in Australia, specifically Melbourne. I’ve more than 10 years’ experience working as a Web and Data Base Developer. All this time I've worked from the beginning as a Junior Developer until my last position as a System Developer Team Leader. For me it’s a pleasure to introduce my job, please scroll down to get access to my resume. If you have any questions about it, I invite you to write me a message through the contact section located at the end of the page. Thanks again for your visit.</p>
+			<div id="photo">
+				 <figure>
+					 <img src="images/mrs-photo.jpg" />
+					 <figcaption>Mauricio Rivera Senior</figcaption>
+				 </figure>
+			 </div>
+			 <div id="webskills">
+				 <figure>
+					 <img src="images/webskills.jpg" />
+					 <figcaption>Web Developer Skills</figcaption>
+				 </figure>
+			 </div>	
+			 <div id="dbskills">
+				 <figure>
+					 <img src="images/bdskills.jpg" />
+					 <figcaption>Database Developer Skills</figcaption>
+				 </figure>
+			 </div>		
+		</section>
+
+		<section id="nav">  
+			<label class="collapse" for="_1">
+				<i class="menu-icon fa fa-bars"></i>
+			</label>
+			<input id="_1" type="checkbox"> 
+			<div>
+				<ul>
+					<li class="current"><a href="#home" title="Home"><i class="nav-icon fa fa-home"></i></a></li>
+					<li class=""><a href="#about-me" title="About Me"><i class="nav-icon fa fa-user"></i></a></li>
+					<li class=""><a href="#resume" title="Resume"><i class="nav-icon fa fa-file"></i></a></li>
+					<li class=""><a href="#contact" title="Contact"><i class="nav-icon fa fa-envelope"></i></a></li> 
+					<li class="bottom"></li>
+				</ul>
+			</div>
+		</section>
+
+		<div class="container"> 
+			<section id="resume">
+				<h2>My Resume <span class="by"> by <span class="yellow">M</span>auricio <span class="yellow">R</span>ivera <span class="yellow">S</span>enior</span></h2>
+				<div id="WD" class="paper">
+					<span class="title">as a Web Developer...</span>
+					<ol class="code" id="code">
+						<li>&lt;!DOCTYPE html&gt;</li>
+						<li>&lt;<span class="label">HTML</span> <span class="option">lang</span>=<span class="value">"en"</span>&gt;</li>
+							<li><span class="ident1">&lt;<span class="label">HEAD</span>&gt;</span></li>
+								<li><span class="ident2">&lt;<span class="label">meta</span> <span class="option">charset</span>=<span class="value">"utf8"</span> /&gt;</span></li>
+								<li><span class="ident2">&lt;<span class="label">meta</span> <span class="option">HTTP-EQUIV</span>=<span class="value">"Refresh"</span> <span class="option">CONTENT</span>=<span class="value">"1;URL=MRS_Resume.pdf"</span>>
+								<li><span class="ident2">&lt;<span class="label">TYTLE</span>&gt;Download resume as a Web Developer&lt;/<span class="label">TYTLE</span>&gt;</span></li>
+							<li><span class="ident1">&lt;/<span class="label">HEAD</span>&gt;</span></li>
+							<li><span class="ident1">&lt;<span class="label">BODY</span>&gt;</span></li>
+								<li><span class="ident2">&lt;<span class="label">section</span>&gt;</span></li>
+									<li><span class="ident3">&lt;<span class="label">p</span>&gt;The resume will start downloading in few secconds.&lt;/<span class="label">p</span>&gt;</span></li>
+									<li><span class="ident3">&lt;<span class="label">p</span>&gt;You can start download by clicking &lt;<span class="label">a</span> <span class="option">href</span>=<span class="value">"MRS_WDResume.pdf"</span>&gt;here&lt;/<span class="label">a</span>&gt;&lt;/<span class="label">p</span>&gt;</span></li>
+								<li><span class="ident2">&lt;/<span class="label">section</span>&gt;</span></li>
+							<li><span class="ident1">&lt;/<span class="label">BODY</span>&gt;</span></li>
+						<li>&lt;/<span class="label">HTML</span>&gt;</li>
+					</ol>
+					<div id="browser-view"><a href="#">View in browser</a></div>
+				</div>
+				
+				<div id="DBD" class="paper">
+					<span class="title">as a Data Base Developer...</span>
+				</div>
+			</section>
+		</div>
+
+		<section id="contact"> 
+			<div class="contact-header">
+				<div class="container">
+					<h2>Contact me</h2>
+				</div>
+			</div>				
+			<div class="container">
+				<div class="ten columns">
+					<form method="post" action="send_message.php">
+						<div class="ten columns">
+							<input class="name" placeholder="Name..." required="required" name="Name" type="text">
+						</div>
+						<div class="ten columns">
+							<input class="email" placeholder="Email..." required="required" name="Email" type="email">
+						</div>
+						<div class="ten columns">
+							<textarea name="Message" required="" rows="20" cols="20" class="message" placeholder="Message..."></textarea>
+						</div>
+						<div class="ten columns">
+							<input name="submit" value="Send" class="submit-button" type="submit">
+						</div>
+					</form>
+				</div>
+				<div class="six columns">	
+					<div class="contact-info">
+						<h3><span class="yellow">M</span>auricio <span class="yellow">R</span>ivera <span class="yellow">S</span>enior</h3>
+							<p>103 / 28 Queens Ave. Hawthorn.</p>
+							<p>Melbourne, Victoria. 3122.</p>
+							<p>Phone: +61 403-794-328</p> 
+							<p>mriveras<span class="yellow">@</span>gmail.com</p>
+					</div>
+					<div class="social-icons">
+						<a href="#"><i class="social-icon fa fa-linkedin fa-2x"></i></a>
+						<a href="#"><i class="social-icon fa fa-twitter fa-2x"></i></a>
+						<a href="#"><i class="social-icon fa fa-google-plus fa-2x"></i></a>
+						<a href="#"><i class="social-icon fa fa-skype fa-2x"></i></a>
+						<a href="#"><i class="social-icon fa fa-facebook fa-2x"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="js/jquery_005.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/jquery_007.js"></script>
+		<script src="js/jquery_004.js"></script>
+		<script src="js/jquery_008.js"></script>
+		<script src="js/jquery_002.js"></script>
+		<script src="js/jquery_003.js"></script>
+		<script src="js/jquery_006.js"></script>
+		<script src="js/waypoints.js"></script>
+		<script src="js/screenadjust.js"></script>
+	</body>
+</html>
